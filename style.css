@@ -1,0 +1,45 @@
+.years-btns, .month-btns {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 16px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 10px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.btn.current {
+    background: #ccc;
+}
+
+.month-item {
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 40px;
+    display: none;
+}
+
+.year-container {
+    display: none;
+}
+
+.year-container.current {
+    display: block;
+}
+
+.month-item.current {
+    display: flex;
+}
+
+.month-item ul {
+    width: 50%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
